@@ -43,4 +43,3 @@ def chance():
 
 chance()
 
-print("you are boss")
