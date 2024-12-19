@@ -17,10 +17,10 @@ def game():
        user = int(input("Enter Your Guess :"))
 
        if computer > user:
-              print("The Number is greater than your!")
+              print(f"Incorrect! The number is less than {user}.")
 
        elif computer < user:
-              print("The Number is smaller than your!")
+              print(f"Incorrect! The number is less than {user}.")
 
        elif computer == user:
               print(f"You win! Your Guess is correct :{user}")
