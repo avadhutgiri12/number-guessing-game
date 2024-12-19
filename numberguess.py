@@ -37,3 +37,5 @@ def chance():
                      game()
 
 chance()
+
+print("you are boss")
